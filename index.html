@@ -7,6 +7,28 @@
     <title>PaintJS</title>
 </head>
 <body>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+
+    <div class="control">
+        <div class="control-range">
+            <input type="range" id="jsRange" min="0.1" max="5.0" value="2.5" step="0.1" />
+        </div>
+        <div class="control-btns">
+            <button id="jsMode">Fill</button>
+            <button id="jsSave">Save</button>
+        </div>
+        <div class="control-colors" id="jsColors">
+            <div class="control-colors jsColor" style="background: black "></div>
+            <div class="control-colors jsColor" style="background: white"></div>
+            <div class="control-colors jsColor" style="background: red"></div>
+            <div class="control-colors jsColor" style="background: orange"></div>
+            <div class="control-colors jsColor" style="background: yellow"></div>
+            <div class="control-colors jsColor" style="background: greenyellow"></div>
+            <div class="control-colors jsColor" style="background: skyblue"></div>
+            <div class="control-colors jsColor" style="background: blue"></div>
+            <div class="control-colors jsColor" style="background: blueviolet"></div>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
